@@ -1,0 +1,44 @@
+{
+  "name": "api_simple",
+  "version": "1.0.0",
+  "main": "nodemon --exec babel-node server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "test": "ava"
+  },
+  "author": "Chinmayi",
+  "license": "MIT",
+  "description": "Simple API to know more how to build a backend with NodeJS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chinmayikelkar/PRACTICE.git"
+  },
+  "keywords": [
+    "Express",
+    "JS"
+  ],
+  "bugs": {
+    "url": "https://github.com/Chinmayikelkar/PRACTICE/issues"
+  },
+  "homepage": "https://github.com/Chinmayikelkar/PRACTICE#readme",
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.15.6"
+  },
+  "prisma": {
+    "schema": "prisma/schema.prisma"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.9",
+    "ava": "^6.2.0",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.7.0"
+  }
+}
